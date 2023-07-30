@@ -92,6 +92,13 @@ int main(){
     }
     }
 
+     // Freeing the dynamically allocated memory
+    for (int i = 0; i < n; i++) {
+        delete[] arr[i];
+    }
+    delete[] arr;
+
+
 
 
     return 0;
