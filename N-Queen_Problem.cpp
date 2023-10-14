@@ -43,8 +43,8 @@ bool Is_Safe(int **arr ,int x,int y, int n){
     }
 
     return true;
-
 }
+
 bool N_Queen(int ** arr ,int x,int n){
     // Base Condition
     if(x>=n){
@@ -65,10 +65,9 @@ bool N_Queen(int ** arr ,int x,int n){
     }
 // if placement for the Queen is possible then we'll return Fase 
     return false;     
-    
-
 }
-int main(){
+
+int main(void){
     int n;
     cout<<"Enter the size of the chessboard : ";
     cin>>n;
@@ -91,15 +90,9 @@ int main(){
         }cout<<endl;
     }
     }
-
      // Freeing the dynamically allocated memory
     for (int i = 0; i < n; i++) {
         delete[] arr[i];
     }
     delete[] arr;
-
-
-
-
-    return 0;
 }
