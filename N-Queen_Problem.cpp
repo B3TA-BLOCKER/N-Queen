@@ -2,10 +2,10 @@
 /* 
     The n-queens puzzle is the problem of placing n queens on an n x n chessboard
     such that no two queens attack each other.
-        * Each Queens should be in different row and colum 
+        * Each Queens should be in different row and column 
         * Non of them shoul be diagnol to any other Queen 
     
-    => Using the concepts of Recursions and Backtracking we find the solution.
+    => Using the concepts of Recursions and Backtracking we'll find the solution.
 
 */
 
