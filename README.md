@@ -42,7 +42,7 @@ The N-Queens Solver is a C++ program that tackles the classic N-Queens problem, 
 ## Example Output 🎲
 
 Enter the size of the chessboard: 4
-
+```
 0   1   0   0
 
 0   0   0   1
@@ -50,7 +50,7 @@ Enter the size of the chessboard: 4
 1   0   0   0
 
 0   0   1   0
-
+```
 
 ## Contributing 🤝
 
