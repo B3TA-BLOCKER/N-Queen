@@ -26,13 +26,13 @@ The N-Queens Solver is a C++ program that tackles the classic N-Queens problem, 
 1. **Compile:** Use a C++ compiler to build the executable from the provided source code.
 
     ```bash
-    g++ N-Queen_Problem.cpp -o N-Queen_Problem.cpp
+    g++ main -o main.cpp
     ```
 
 2. **Run:** Execute the compiled program.
 
     ```bash
-    ./N-Queen_Problem
+    ./main
     ```
 
 3. **Input:** Enter the desired size of the chessboard when prompted.
